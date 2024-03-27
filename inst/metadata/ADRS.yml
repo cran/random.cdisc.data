@@ -1,0 +1,35 @@
+domain:
+  name: ADRS
+  label: Response Analysis Dataset
+
+variables:
+  ASEQ:
+    label: Analysis Sequence Number
+    type: integer
+  RSSEQ:
+    label: Sequence Number
+    type: integer
+  PARAM:
+    label: Parameter
+    type: factor
+  PARAMCD:
+    label: Parameter Code
+    type: factor
+  AVAL:
+    label: Analysis Value
+    type: numeric
+  AVALC:
+    label: Analysis Value (C)
+    type: factor
+  ADTM:
+    label: Analysis Datetime
+    type: datetime
+  ADY:
+    label: Analysis Relative Day
+    type: integer
+  AVISIT:
+    label: Analysis Visit
+    type: factor
+  AVISITN:
+    label: Analysis Visit (N)
+    type: integer

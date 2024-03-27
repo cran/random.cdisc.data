@@ -1,0 +1,56 @@
+domain:
+  name: ADPC
+  label: Pharmacokinetic Analysis Dataset
+
+variables:
+ NFRLT:
+    label: Nom. Rel. Time from Analyte First Dose
+    type: numeric
+ AFRLT:
+    label: Act. Rel. Time from Analyte First Dose
+    type: numeric
+ NRRLT:
+    label: Nominal Rel. Time from Ref. Dose
+    type: numeric
+ ARRLT:
+    label: Actual Rel. Time from Ref. Dose
+    type: numeric
+ PCTPTNUM:
+    label: Planned Time Point Number
+    type: numeric
+ PCTPT:
+    label: Planned Time Point Name
+    type: factor
+ PCVOL:
+    label: Volume Of Urine Sampling
+    type: numeric
+ PCVOLU:
+    label: Unit of Volume Of Urine Sampling
+    type: factor
+ AVAL:
+    label: Analysis Value
+    type: numeric
+ AVALCAT1:
+    label: Analysis Value Category 1
+    type: character
+ AVALU:
+    label: Analysis Value Unit
+    type: factor
+ RELTMU:
+    label: Relative Actual/Nominal Time Units
+    type: factor
+ PARAM:
+    label: Parameter
+    type: factor
+ ASMED:
+    label: Matrix of Sample
+    type: factor
+ VISIT:
+    label: Visit
+    type: factor
+ VISITDY:
+    label: Visit (N)
+    type: integer
+ ANL02FL:
+    label: Analysis Flag 02
+    type: character

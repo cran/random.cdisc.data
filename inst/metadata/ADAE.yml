@@ -1,0 +1,116 @@
+domain:
+  name: ADAE
+  label: Adverse Events Analysis Dataset
+
+variables:
+  ASEQ:
+    label: Analysis Sequence Number
+    type: integer
+  AESEQ:
+    label: Sponsor-Defined Identifier
+    type: integer
+  AETERM:
+    label: Reported Term for the Adverse Event
+    type: factor
+  AELLT:
+    label: Lowest Level Term
+    type: factor
+  AEDECOD:
+    label: Dictionary-Derived Term
+    type: factor
+  AEHLT:
+    label: High Level Term
+    type: factor
+  AEHLGT:
+    label: High Level Group Term
+    type: factor
+  AEBODSYS:
+    label: Body System or Organ Class
+    type: factor
+  AESOC:
+    label: Primary System Organ Class
+    type: factor
+  AESEV:
+    label: Severity/Intensity
+    type: factor
+  AESER:
+    label: Serious Event
+    type: factor
+  AEACN:
+    label: Action Taken With Study Treatment
+    type: character
+  AEREL:
+    label: Analysis Causality
+    type: factor
+  AEOUT:
+    label: Outcome of Adverse Event
+    type: character
+  AESDTH:
+    label: Results in Death
+    type: factor
+  AESCONG:
+    label: Congenital Anomaly or Birth Defect
+    type: factor
+  AESDISAB:
+    label: Persist or Signif Disability/Incapacity
+    type: factor
+  AESHOSP:
+    label: Requires or Prolongs Hospitalization
+    type: factor
+  AESLIFE:
+    label: Is Life Threatening
+    type: factor
+  AESMIE:
+    label: Other Medically Important Serious Event
+    type: factor
+  TRTEMFL:
+    label: Treatment Emergent Analysis Flag
+    type: factor
+  AECONTRT:
+    label: Concomitant or Additional Trtmnt Given
+    type: factor
+  ASTDTM:
+    label: Analysis Start Datetime
+    type: datetime
+  AENDTM:
+    label: Analysis End Datetime
+    type: datetime
+  ASTDY:
+    label: Analysis Start Relative Day
+    type: integer
+  AENDY:
+    label: Analysis End Relative Day
+    type: integer
+  LDOSEDTM:
+    label: End Date/Time of Last Dose
+    type: datetime
+  LDRELTM:
+    label: Last Dose Relative Time
+    type: numeric
+  AETOXGR:
+    label: Analysis Toxicity Grade
+    type: factor
+  SMQ01NAM:
+    label: SMQ 01 Reference Name
+    type: character
+  SMQ02NAM:
+    label: SMQ 02 Reference Name
+    type: character
+  SMQ01SC:
+    label: SMQ 01 Scope
+    type: character
+  SMQ02SC:
+    label: SMQ 02 Scope
+    type: character
+  CQ01NAM:
+    label: CQ 01 Reference Name
+    type: character
+  ANL01FL:
+    label: Analysis Flag 01
+    type: factor
+  AERELNST:
+    label: Relationship to Non-Study Treatment
+    type: factor
+  AEACNOTH:
+    label: Other Action Taken
+    type: factor

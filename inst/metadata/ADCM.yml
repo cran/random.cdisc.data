@@ -1,0 +1,89 @@
+domain:
+  name: ADCM
+  label: Concomitant Medications Analysis Dataset
+
+variables:
+  ASEQ:
+    label: Analysis Sequence Number
+    type: integer
+  CMSEQ:
+    label: Sponsor-Defined Identifier
+    type: integer
+  CMDECOD:
+    label: Standardized Medication Name
+    type: factor
+  CMCAT:
+    label: Category for Medication
+    type: factor
+  CMCLAS:
+    label: Medication Class
+    type: factor
+  ATC1:
+    label: ATC Level 1 Text
+    type: factor
+  ATC2:
+    label: ATC Level 2 Text
+    type: factor
+  ATC3:
+    label: ATC Level 3 Text
+    type: factor
+  ATC4:
+    label: ATC Level 4 Text
+    type: factor
+  ATC1CD:
+    label: ATC Level 1 Code
+    type: factor
+  ATC2CD:
+    label: ATC Level 2 Code
+    type: factor
+  ATC3CD:
+    label: ATC Level 3 Code
+    type: factor
+  ATC4CD:
+    label: ATC Level 4 Code
+    type: factor
+  ATIREL:
+    label: Time Relation of Medication
+    type: factor
+  ASTDTM:
+    label: Analysis Start Datetime
+    type: datetime
+  AENDTM:
+    label: Analysis End Datetime
+    type: datetime
+  ASTDY:
+    label: Analysis Start Relative Day
+    type: integer
+  AENDY:
+    label: Analysis End Relative Day
+    type: integer
+  CMINDC:
+    label: Indication
+    type: factor
+  CMDOSE:
+    label: Dose per Administration
+    type: integer
+  CMTRT:
+    label: Reported Name of Drug, Med, or Therapy
+    type: factor
+  CMDOSU:
+    label: Dose Units
+    type: factor
+  CMROUTE:
+    label: Route of Administration
+    type: factor
+  CMDOSFRQ:
+    label: Dosing Frequency per Interval
+    type: factor
+  CMSTRTPT:
+    label: Start Relative to Reference Time Point
+    type: factor
+  CMENRTPT:
+    label: End Relative to Reference Time Point
+    type: factor
+  ADURN:
+    label: Analysis Duration
+    type: integer
+  ADURU:
+    label: Analysis Duration Units
+    type: factor
